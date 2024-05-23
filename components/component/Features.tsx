@@ -10,7 +10,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="py-12 md:py-24 lg:py-32">
+    <section className="py-12 md:py-24 lg:py-32" id="features">
       <div className="container mx-auto px-4 md:px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="space-y-4">
           <FolderIcon className="h-8 w-8 text-gray-900 " />

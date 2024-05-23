@@ -1,10 +1,11 @@
-import { Hero } from "@/components/component/Hero";
+import GetStarted from "@/components/component/GetStarted";
+import { Button } from "@/components/ui/button";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <Hero />
+      <GetStarted />
     </div>
   );
 };

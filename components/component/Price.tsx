@@ -2,6 +2,7 @@ import { DollarSignIcon } from "@/constants/iconsData";
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Price = () => {
   return (
@@ -33,10 +34,9 @@ const Price = () => {
             you&apos;re an individual or a small business. Start securing your
             sensitive information today.
           </p>
-          <div className="flex gap-4">
+          <Link className="flex gap-4 w-1/2" href="#pricing">
             <Button>View Pricing</Button>
-            <Button variant="secondary">Contact Sales</Button>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

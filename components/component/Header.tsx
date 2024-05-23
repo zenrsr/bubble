@@ -13,27 +13,21 @@ const Header = () => {
       <nav className="hidden md:flex items-center gap-4">
         <Link
           className="text-sm font-medium text-gray-600 hover:text-gray-900"
-          href="#"
+          href="#features"
         >
           Features
         </Link>
         <Link
           className="text-sm font-medium text-gray-600 hover:text-gray-900"
-          href="#"
+          href="#pricing"
         >
           Pricing
         </Link>
         <Link
           className="text-sm font-medium text-gray-600 hover:text-gray-900"
-          href="#"
+          href="#about"
         >
           About
-        </Link>
-        <Link
-          className="text-sm font-medium text-gray-600 hover:text-gray-900"
-          href="#"
-        >
-          Contact
         </Link>
       </nav>
       <div className="flex items-center gap-2">
