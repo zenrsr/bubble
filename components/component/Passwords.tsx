@@ -10,8 +10,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Passwords() {
   return (
-    <div className="w-full min-h-screen bg-gray-100 flex items-center justify-center px-4 sm:px-6 md:px-8">
-      <div className="max-w-6xl w-full bg-white rounded-lg shadow-lg p-8 sm:p-10 md:p-12 grid gap-8">
+    <div className="w-full min-h-screen bg-gray-100 flex items-center justify-center px-4 sm:px-6 md:px-8 overflow-y-auto h-screen">
+      <div className="max-w-6xl w-full bg-white rounded-lg shadow-lg p-8 sm:p-10 md:p-12 grid gap-8 h-full overflow-y-auto">
         <div className="text-center space-y-4 md:col-span-3">
           <div>
             <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl md:text-5xl">

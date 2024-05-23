@@ -5,8 +5,8 @@ import React from "react";
 
 const NotesNav = () => {
   return (
-    <div className="flex min-h-full w-[30vw]">
-      <aside className="w-64 bg-[#2C2C2E] p-6">
+    <div className="flex min-h-full">
+      <aside className="bg-[#2C2C2E] p-6">
         <Link
           className="flex items-center space-x-2 text-white mb-10 cursor-pointer"
           href={"/homepage"}
@@ -20,29 +20,29 @@ const NotesNav = () => {
             href="/homepage"
           >
             <HomeIcon className="h-5 w-5" />
-            <span>Home</span>
+            <span className="hidden md:block">Home</span>
           </Link>
           <Link
             className="flex items-center space-x-2 text-white py-2 px-4 rounded-lg hover:bg-[#3A3A3C] transition-colors"
             href="/notes"
           >
             <FileTextIcon className="h-5 w-5" />
-            <span>Notes</span>
+            <span className="hidden md:block">Notes</span>
           </Link>
           <Link
             className="flex items-center space-x-2 text-white py-2 px-4 rounded-lg hover:bg-[#3A3A3C] transition-colors"
             href="/passwords"
           >
             <KeyIcon className="h-5 w-5" />
-            <span>Passwords</span>
+            <span className="hidden md:block">Passwords</span>
           </Link>
-          {/* <Link
+          <Link
             className="flex items-center space-x-2 text-white py-2 px-4 rounded-lg hover:bg-[#3A3A3C] transition-colors"
             href="#"
           >
             <SettingsIcon className="h-5 w-5" />
-            <span>Settings</span>
-          </Link> */}
+            <span className="hidden md:block">Settings</span>
+          </Link>
         </nav>
       </aside>
     </div>
